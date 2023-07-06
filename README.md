@@ -33,11 +33,13 @@ It also allows for the follwing "objectTypes": *objectTypes determine what is do
 syntax: 
  - grid()
  - grid(*obj : obj, )
+
 methods:
  - grid.add(obj : obj, )
  - grid.scanGridPoint(data : positionType, ) *Returns bool meaning hit or not for the positionType.*
  - grid.scanSquarePercentage(data : positionType, xFactor : int, yFactor : int, ) *Returns the % of hits based on a 1x1 area, sliced horizontally by the xFactor and vertically by the yFactor.*
  - grid.scan(window : positionType, scale : int = 1, xStretch : int = 1, ) *Returns a string scan view of the area given.*
+
  attributes:
  - grid().core : list[obj, ]
 
@@ -45,8 +47,10 @@ methods:
 
 syntax:
  - obj(shape : objectShape, type : objectType, origin : positionType, data : dataType, )
+
 methods:
  None
+ 
 attributes:
  - shape : objectShape
  - self.type : objectType

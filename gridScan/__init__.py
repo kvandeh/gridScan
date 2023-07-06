@@ -1,5 +1,5 @@
-from translators.dataTypes import *
-from translators.objectTypes import *
+from .gridScan.translators.dataTypes import *
+from .gridScan.translators.objectTypes import *
 
 class grid():
     def __init__(self, *args,):

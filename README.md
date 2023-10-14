@@ -1,4 +1,3 @@
-# Code by Kieran van der Heijde, HT4B JvB College
 # Last Edited: 7/6/2023
 
 # Prequisities
